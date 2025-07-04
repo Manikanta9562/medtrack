@@ -15,7 +15,7 @@ app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'your_email@gmail.com'       # ✅ Your Gmail
 app.config['MAIL_PASSWORD'] = 'your_app_password'          # ✅ Use Gmail App Password
-
+arn:aws:sns:us-east-1:600627364806:Medtrack5
 mail = Mail(app)
 
 # ---------- Routes ----------
